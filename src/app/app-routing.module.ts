@@ -9,6 +9,7 @@ import { HomeComponent } from './components/views/home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CategoriaReadComponent } from './components/views/categoria/categoria-read/categoria-read.component';
+import { LivroReadComponent } from './components/views/livro/livro-read/livro-read.component';
 
 const routes: Routes = [
   {
@@ -46,6 +47,10 @@ const routes: Routes = [
   {
     path: 'categorias/:id_cat/livros/:id/delete',
     component: LivroDeleteComponent
+  },
+  {
+    path: 'categorias/:id_cat/livros/:id/read',
+    component: LivroReadComponent
   }
 ];
 
