@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'https://mybookstore.herokuapp.com'
+  baseUrl: 'http://34.204.61.86:8080'
 };
 
 /*

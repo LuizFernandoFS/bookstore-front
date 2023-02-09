@@ -10,7 +10,7 @@ import { Categoria } from './categoria.model';
 })
 export class CategoriaService {
 
-  baseUrl: String = environment.baseUrl;
+  baseUrl: String = 'http://34.204.61.86:8080';
 
   constructor(private http: HttpClient, private _snack: MatSnackBar) { }
 
